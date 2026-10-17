@@ -67,7 +67,7 @@ import {
 	createPersistentControls,
 } from "./persistent.ts";
 import { createDelivery } from "./delivery.ts";
-import { buildPiPromptArgs, createLaunchPlanner } from "./launch.ts";
+import { createLaunchPlanner } from "./launch.ts";
 import { borderLine, createWidgetController } from "./widgets.ts";
 import {
 	registerWorktreeTools,
@@ -221,7 +221,6 @@ export const __test__ = {
 	resolveLaunchBehavior,
 	resolveEffectiveAutoExit,
 	resolveEffectiveInteractive,
-	buildPiPromptArgs,
 	observeRunningSubagent,
 	evaluateNoProgressAdvisory,
 	formatNoProgressAdvisoryLine,
